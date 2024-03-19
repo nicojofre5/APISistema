@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\lnico\\OneDrive\\Proyectos\\Escritorio\\sistemaGestion\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F18729A2-89B8-4083-B493-78CF6C8A166E}|APIsistemaGestion\\APIsistemaGestion.csproj|c:\\users\\lnico\\onedrive\\proyectos\\escritorio\\sistemagestion\\apisistemagestion\\database\\codercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F18729A2-89B8-4083-B493-78CF6C8A166E}|APIsistemaGestion\\APIsistemaGestion.csproj|solutionrelative:apisistemagestion\\database\\codercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F18729A2-89B8-4083-B493-78CF6C8A166E}|APIsistemaGestion\\APIsistemaGestion.csproj|c:\\users\\lnico\\onedrive\\proyectos\\escritorio\\sistemagestion\\apisistemagestion\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F18729A2-89B8-4083-B493-78CF6C8A166E}|APIsistemaGestion\\APIsistemaGestion.csproj|solutionrelative:apisistemagestion\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -37,10 +41,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{F18729A2-89B8-4083-B493-78CF6C8A166E}|APIsistemaGestion\\APIsistemaGestion.csproj|c:\\users\\lnico\\onedrive\\proyectos\\escritorio\\sistemagestion\\apisistemagestion\\excepciones\\excepciongral.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F18729A2-89B8-4083-B493-78CF6C8A166E}|APIsistemaGestion\\APIsistemaGestion.csproj|solutionrelative:apisistemagestion\\excepciones\\excepciongral.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F18729A2-89B8-4083-B493-78CF6C8A166E}|APIsistemaGestion\\APIsistemaGestion.csproj|c:\\users\\lnico\\onedrive\\proyectos\\escritorio\\sistemagestion\\apisistemagestion\\database\\codercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F18729A2-89B8-4083-B493-78CF6C8A166E}|APIsistemaGestion\\APIsistemaGestion.csproj|solutionrelative:apisistemagestion\\database\\codercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Bookmark",
@@ -66,7 +66,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "UsuarioController.cs",
               "DocumentMoniker": "C:\\Users\\lnico\\OneDrive\\Proyectos\\Escritorio\\sistemaGestion\\APIsistemaGestion\\Controllers\\UsuarioController.cs",
               "RelativeDocumentMoniker": "APIsistemaGestion\\Controllers\\UsuarioController.cs",
@@ -79,7 +79,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "UsuarioService.cs",
               "DocumentMoniker": "C:\\Users\\lnico\\OneDrive\\Proyectos\\Escritorio\\sistemaGestion\\APIsistemaGestion\\Service\\UsuarioService.cs",
               "RelativeDocumentMoniker": "APIsistemaGestion\\Service\\UsuarioService.cs",
@@ -92,7 +92,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "UsuarioDTO.cs",
               "DocumentMoniker": "C:\\Users\\lnico\\OneDrive\\Proyectos\\Escritorio\\sistemaGestion\\APIsistemaGestion\\DTO\\UsuarioDTO.cs",
               "RelativeDocumentMoniker": "APIsistemaGestion\\DTO\\UsuarioDTO.cs",
@@ -105,7 +105,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "ProductoDTO.cs",
               "DocumentMoniker": "C:\\Users\\lnico\\OneDrive\\Proyectos\\Escritorio\\sistemaGestion\\APIsistemaGestion\\DTO\\ProductoDTO.cs",
               "RelativeDocumentMoniker": "APIsistemaGestion\\DTO\\ProductoDTO.cs",
@@ -118,7 +118,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "ProductoMapper.cs",
               "DocumentMoniker": "C:\\Users\\lnico\\OneDrive\\Proyectos\\Escritorio\\sistemaGestion\\APIsistemaGestion\\Mapper\\ProductoMapper.cs",
               "RelativeDocumentMoniker": "APIsistemaGestion\\Mapper\\ProductoMapper.cs",
@@ -131,7 +131,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "UsuarioMapper.cs",
               "DocumentMoniker": "C:\\Users\\lnico\\OneDrive\\Proyectos\\Escritorio\\sistemaGestion\\APIsistemaGestion\\Mapper\\UsuarioMapper.cs",
               "RelativeDocumentMoniker": "APIsistemaGestion\\Mapper\\UsuarioMapper.cs",
@@ -144,7 +144,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "APIsistemaGestion",
               "DocumentMoniker": "C:\\Users\\lnico\\OneDrive\\Proyectos\\Escritorio\\sistemaGestion\\APIsistemaGestion\\APIsistemaGestion.csproj",
               "RelativeDocumentMoniker": "APIsistemaGestion\\APIsistemaGestion.csproj",
@@ -157,7 +157,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Excepciongral.cs",
               "DocumentMoniker": "C:\\Users\\lnico\\OneDrive\\Proyectos\\Escritorio\\sistemaGestion\\APIsistemaGestion\\Excepciones\\Excepciongral.cs",
               "RelativeDocumentMoniker": "APIsistemaGestion\\Excepciones\\Excepciongral.cs",
@@ -170,7 +170,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "ProductoService.cs",
               "DocumentMoniker": "C:\\Users\\lnico\\OneDrive\\Proyectos\\Escritorio\\sistemaGestion\\APIsistemaGestion\\Service\\ProductoService.cs",
               "RelativeDocumentMoniker": "APIsistemaGestion\\Service\\ProductoService.cs",
@@ -183,13 +183,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 0,
               "Title": "CoderContext.cs",
               "DocumentMoniker": "C:\\Users\\lnico\\OneDrive\\Proyectos\\Escritorio\\sistemaGestion\\APIsistemaGestion\\Database\\CoderContext.cs",
               "RelativeDocumentMoniker": "APIsistemaGestion\\Database\\CoderContext.cs",
-              "ToolTip": "C:\\Users\\lnico\\OneDrive\\Proyectos\\Escritorio\\sistemaGestion\\APIsistemaGestion\\Database\\CoderContext.cs",
-              "RelativeToolTip": "APIsistemaGestion\\Database\\CoderContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "ToolTip": "C:\\Users\\lnico\\OneDrive\\Proyectos\\Escritorio\\sistemaGestion\\APIsistemaGestion\\Database\\CoderContext.cs*",
+              "RelativeToolTip": "APIsistemaGestion\\Database\\CoderContext.cs*",
+              "ViewState": "AQIAABQAAAAAAAAAAAAgwBgAAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-18T21:28:16.474Z",
               "EditorCaption": ""
