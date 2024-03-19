@@ -27,7 +27,7 @@ namespace APIsistemaGestion.Service
             }
             catch (Exception ex)
             {
-                throw new Exception($"No se pudo obtener la lista de productos. Detalle: {ex.Message}");
+                throw new Exception($"no se obtiene la lista de productos, el error es: {ex.Message}");
             }
 
         }
@@ -58,7 +58,7 @@ namespace APIsistemaGestion.Service
             }
             catch (Excepciongral ex)
             {
-                throw new Excepciongral($"No se pudo obtener producto asociados a este usuario. Detalle: {ex.Message}", ex.HttpStatusCode);
+                throw new Excepciongral($"No se encontraron productos para el usuario, el motivo es: {ex.Message}", ex.HttpStatusCode);
             }
             catch (Exception ex)
             {
@@ -86,7 +86,7 @@ namespace APIsistemaGestion.Service
             }
             catch(Excepciongral ex)
             {
-                throw new Excepciongral($"No se pudo obtener el producto . Detalle: {ex.Message}", ex.HttpStatusCode);
+                throw new Excepciongral($"No se puede obtener el producto {ex.Message}", ex.HttpStatusCode);
             }
             catch (Exception ex)
             {
@@ -119,12 +119,12 @@ namespace APIsistemaGestion.Service
                 }
 
                 //return false;
-                throw new Excepciongral("El producto pasado no es valido.", 400);
+                throw new Excepciongral("El produto que ha ingresado no se puede mostrar", 400);
 
             }
             catch (Excepciongral ex)
             {
-                throw new Excepciongral($"No se pudo agregar el producto . Detalle: {ex.Message}", ex.HttpStatusCode);
+                throw new Excepciongral($"Error al egregar producto, el error es: {ex.Message}", ex.HttpStatusCode);
             }
             catch (Exception ex)
             {
@@ -152,7 +152,7 @@ namespace APIsistemaGestion.Service
             }
             catch (Excepciongral ex)
             {
-                throw new Excepciongral($"No se pudo eliminar el producto . Detalle: {ex.Message}", ex.HttpStatusCode);
+                throw new Excepciongral($"No se pudo eliminar producto: {ex.Message}", ex.HttpStatusCode);
             }
             catch (Exception ex)
             {
@@ -191,7 +191,7 @@ namespace APIsistemaGestion.Service
             }
             catch (Excepciongral ex)
             {
-                throw new Excepciongral($"No se pudo actualizar el producto . Detalle: {ex.Message}", ex.HttpStatusCode);
+                throw new Excepciongral($"Problema par amodifciar producto {ex.Message}", ex.HttpStatusCode);
             }
             catch (Exception ex)
             {
@@ -227,7 +227,7 @@ namespace APIsistemaGestion.Service
             }
             catch (Excepciongral ex)
             {
-                throw new Excepciongral($"No se pudo actualizar el stock del producto . Detalle: {ex.Message}", ex.HttpStatusCode);
+                throw new Excepciongral($"Problema para actualizar: {ex.Message}", ex.HttpStatusCode);
             }
             catch (Exception ex)
             {
